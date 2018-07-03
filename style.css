@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+body {
+    color: #332d2d;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: palevioletred;
+    margin: 0;
+    font-size: 16px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: end;
+    min-height: 100%;
+}
+.wrapper {
+    width: 100%;
+    padding: 15px;
+}
+@media (min-width: 900px) {
+    .wrapper {
+        width: 900px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+header {
+    text-align: right;
+}
+.header__top,
+.header__bottom {
+}
+.header__top {
+}
+.header__top h1 {
+    font-size: 6rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+.header__top h1 span {
+    text-transform: capitalize;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+}
+
+.header__bottom {
+    box-shadow: inset 0 0 5px #270d1a;
+    background-color: #5696b7;
+    margin: 0 -5px;
+}
+.header__bottom h2 {
+    margin: 1rem 0;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    color: #203a50;
+    color: #ff7d5d;
+}
+
+p {
+    line-height: 1.6rem;
+    letter-spacing: 0.05rem;
+}
+
+a {
+    color: #0c79b1;
+}
+a:hover {
+    color: #d6f1ff;
+}
+main {
+    margin: 100px 0 160px;
+}
+main h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.15rem;
+}
+main h2:not(:nth-child(1)) {
+    margin-top: 4rem;
+}
+footer {
+    padding: 30px 0;
+    color: palevioletred;
+    background-color: #332d2d;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+footer a {
+    color: #1494d6;
+}
