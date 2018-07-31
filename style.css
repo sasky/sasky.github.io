@@ -1,3 +1,11 @@
+/*
+Pink: palevioletred;
+*/
+/* 
+/*
+
+dfdbdb
+*/
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -15,7 +23,7 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: #332d2d;
+    background-color: #5696b7;
 }
 .wrapper {
     width: 100%;
@@ -35,7 +43,7 @@ body {
 }
 header {
     text-align: right;
-    background-color: palevioletred;
+    background-color: #dfdbdb;
 }
 .header__top,
 .header__bottom {
@@ -44,6 +52,7 @@ header {
     padding-bottom: 0;
 }
 .header__top h1 {
+    /* color: #3f1a26; */
     font-size: 4rem;
     margin: 0;
     text-transform: uppercase;
@@ -81,7 +90,7 @@ header {
     position: absolute;
     content: "";
     height: 1px;
-    background-color: palevioletred;
+    background-color: #dfdbdb;
     box-shadow: 0 2px 3px black;
     left: 0;
     right: 0;
@@ -98,8 +107,7 @@ header {
     font-size: 1.2rem;
     line-height: 1.4rem;
     letter-spacing: 0.1rem;
-    color: #203a50;
-    color: #ff7d5d;
+    color: #fffefe;
     text-align: left;
     margin: 1rem 0 0 0;
 }
@@ -132,7 +140,7 @@ a:hover {
 }
 main {
     padding: 4rem 0 5rem;
-    background-color: palevioletred;
+    background-color: #dfdbdb;
 }
 @media (min-width: 600px) {
     main {
@@ -156,11 +164,11 @@ main h3 {
 }
 footer {
     padding: 30px 0;
-    color: palevioletred;
+    color: #fffefe;
 
     grid-row-start: 3;
     grid-row-end: 4;
 }
 footer a {
-    color: #1494d6;
+    color: #fffefe;
 }
