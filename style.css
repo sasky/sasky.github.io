@@ -152,6 +152,8 @@ main h2 {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 0.15rem;
+    border-bottom: 3px solid hotpink;
+    margin-bottom: 2.4rem;
 }
 main h2:not(:nth-child(1)) {
     margin-top: 4rem;
@@ -168,6 +170,17 @@ footer {
 
     grid-row-start: 3;
     grid-row-end: 4;
+    position: relative;
+}
+footer:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #dfdbdb;
+    box-shadow: 0 2px 3px black;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 footer a {
     color: #fffefe;
